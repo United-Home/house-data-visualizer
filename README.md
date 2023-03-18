@@ -1,13 +1,11 @@
-# stl-scraper - Short-Term Listings Scraper
+# House Data Visualizer
 
-Scrape short-term listings providers (Airbnb).
+### How to Use
 
 Given a search query, e.g. "San Diego, CA" or "Rome, Italy", search Airbnb inventory and collect data on listings. Save
 results to a CSV file or Elasticsearch.
 
-## Usage
-
-### Usage (basic installation)
+### Basic Installation
 
 ```shell
 # activate the virtual env
@@ -17,7 +15,8 @@ results to a CSV file or Elasticsearch.
 ./stl.py search "Madrid, Spain"
 ```
 
-### Usage (advanced installation)
+### Advanced Installation
+
 ```shell
 # spin up the containers
 docker compose up -d
